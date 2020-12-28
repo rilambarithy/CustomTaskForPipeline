@@ -1,8 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-    "id": "1c73896f-986b-46a5-b5e1-4261a914d704",
-    "name": "ETL_Kick_Starter",
-    "friendlyName": "ETL sKick Starter",,
+    "id": "77b59d81-cfdb-4ba9-813e-8414aa9d3e90",
+    "name": "ETLKickStarter",
+    "friendlyName": "ETL sKick Starter",
     "description": "pico's need of the hour data truthfullness",
     "helpMarkDown": "",
     "category": "Utility",
