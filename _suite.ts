@@ -15,7 +15,7 @@ describe('Sample task tests', function () {
     it('should succeed with simple inputs', function(done: Mocha.Done) {
           this.timeout(1000);
 
-    let tp = 'tests/success.js';
+    let tp = path.join(__dirname, 'success.js');
     let tr: ttm.MockTestRunner = new ttm.MockTestRunner(tp);
 
     tr.run();
@@ -31,7 +31,7 @@ describe('Sample task tests', function () {
     it('it should fail if tool returns 1', function(done: Mocha.Done) {
         this.timeout(1000);
 
-    let tp = 'tests/failure.js';
+    let tp = path.join(__dirname, 'failure.js');
     let tr: ttm.MockTestRunner = new ttm.MockTestRunner(tp);
 
     tr.run();
