@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+    "id": "1c73896f-986b-46a5-b5e1-4261a914d704",
+    "name": "ETL_Kick_Starter",
+    "friendlyName": "ETL sKick Starter",,
+    "description": "pico's need of the hour data truthfullness",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "Pico",
+    "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Echo $(samplestring)",
+    "inputs": [
+        {
+            "name": "samplestring",
+            "type": "string",
+            "label": "samplestring",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Case1"
+        }
+    ],
+    "execution": {
+        "Node10": {
+            "target": "index.js"
+        }
+    }
+}
