@@ -29,7 +29,7 @@ describe('Sample task tests', function () {
     });
     it('should succeed with simple inputs', function (done) {
         this.timeout(1000);
-        let tp = path.join(__dirname, 'success.js');
+        let tp = 'tests/success.js';
         let tr = new ttm.MockTestRunner(tp);
         tr.run();
         console.log(tr.succeeded);
@@ -42,7 +42,7 @@ describe('Sample task tests', function () {
     });
     it('it should fail if tool returns 1', function (done) {
         this.timeout(1000);
-        let tp = path.join(__dirname, 'failure.js');
+        let tp = 'tests/failure.js';
         let tr = new ttm.MockTestRunner(tp);
         tr.run();
         console.log(tr.succeeded);
