@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
     "id": "77b59d81-cfdb-4ba9-813e-8414aa9d3e90",
     "name": "ETLKickStarter",
-    "friendlyName": "ETL sKick Starter",
+    "friendlyName": "ETL Kick Starter",
     "description": "pico's need of the hour data truthfullness",
     "helpMarkDown": "",
     "category": "Utility",
@@ -12,12 +12,12 @@
         "Minor": 1,
         "Patch": 0
     },
-    "instanceNameFormat": "Echo $(samplestring)",
+    "instanceNameFormat": "Pico DataAttest",
     "inputs": [
         {
             "name": "samplestring",
             "type": "string",
-            "label": "samplestring",
+            "label": "Enter Test Case",
             "defaultValue": "",
             "required": true,
             "helpMarkDown": "Case1"
