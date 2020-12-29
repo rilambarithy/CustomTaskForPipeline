@@ -15,14 +15,34 @@
     "instanceNameFormat": "Pico DataAttest",
     "inputs": [
         {
-            "name": "samplestring",
+            "name": "userName",
             "type": "string",
-            "label": "Enter Test case",
+            "label": "User Name",
             "defaultValue": "",
             "required": true,
-            "helpMarkDown": "Case1"
+            "helpMarkDown": ""
+        },
+        {
+   
+            "name": "password",
+            "type": "string",
+            "label": "Password",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": ""
+     
+        }, 
+        {
+            "name": "instance",
+            "type": "string",
+            "label": "Instance",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": ""
         }
+
     ],
+    
     "execution": {
         "Node10": {
             "target": "index.js"
