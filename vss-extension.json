@@ -14,7 +14,7 @@
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "logo.png"        
+        "default": "images/logo.png"        
     },
     "files": [
         {

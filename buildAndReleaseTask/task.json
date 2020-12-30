@@ -39,6 +39,14 @@
             "defaultValue": "",
             "required": true,
             "helpMarkDown": ""
+        },
+        {
+            "name": "samplestring",
+            "type": "string",
+            "label": "Sample String",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "A sample string"
         }
 
     ],
