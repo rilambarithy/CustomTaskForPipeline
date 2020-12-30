@@ -1,9 +1,9 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-    "id": "77b59d81-cfdb-4ba9-813e-8414aa9d3e90",
+    "id": "4135d747-3961-4000-a11e-f0a6a7810d53",
     "name": "buildAndReleaseTasks",
-    "friendlyName": "ETL Kick Starter",
-    "description": "pico's need of the hour data truthfullness",
+    "friendlyName": "ETL starter",
+    "description": "pico's \"need of the hour\" data truthfullness",
     "helpMarkDown": "",
     "category": "Utility",
     "author": "Pico",
@@ -12,7 +12,7 @@
         "Minor": 1,
         "Patch": 0
     },
-    "instanceNameFormat": "Pico DataAttest",
+    "instanceNameFormat": "DataAttestByPico",
     "inputs": [
         {
             "name": "userName",
