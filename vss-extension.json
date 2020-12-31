@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "build-release-task",
-    "name": "PicoDataAttest Build and Release Tools",
+    "name": "PicoDataAttest Build and Release Tool",
     "version": "0.0.1",
     "publisher": "PicoDataAttest",
     "targets": [
@@ -14,7 +14,7 @@
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/logo.png"        
+        "default": "images\\logo.png"        
     },
     "files": [
         {
