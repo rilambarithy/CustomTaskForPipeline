@@ -12,7 +12,7 @@
         "Minor": 1,
         "Patch": 0
     },
-    "instanceNameFormat": "DataAttestByPico",
+    "instanceNameFormat": "DataAttest",
     "inputs": [
         {
             "name": "userName",
