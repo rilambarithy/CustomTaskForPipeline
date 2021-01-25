@@ -39,7 +39,7 @@ function run() {
         try{
             const id = tl.getInput('instanceId', true);
             console.log('calling rest service')
-              fetch('https://2c3d576af2cd.ngrok.io/api/books/'+id)
+              fetch(id+'/api/books/')
                .then(res => res.json())
                   .then(json => console.log(json));
             }
