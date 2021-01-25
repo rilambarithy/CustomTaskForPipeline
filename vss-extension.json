@@ -8,7 +8,11 @@
     "galleryFlags": [
         "Preview"
     ],
-        
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -19,7 +23,7 @@
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images\\logo.png"        
+        "default": "images/logo.png"        
     },
     "files": [
         {
