@@ -2,8 +2,13 @@
     "manifestVersion": 1,
     "id": "build-release-task",
     "name": "DataAttest Build and Release Tool",
-    "version": "0.0.3",
-    "publisher": "PicoDataAttestInc",
+    "version": "0.0.4",
+    "publisher": "PicoDataAttest",
+    "public": true,
+    "galleryFlags": [
+        "Preview"
+    ],
+        
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
