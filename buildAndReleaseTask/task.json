@@ -28,7 +28,7 @@
             "type": "string",
             "label": "Password",
             "defaultValue": "",
-            "required": true,
+            "required": false,
             "helpMarkDown": ""
      
         }, 

@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "build-release-task",
     "name": "DataAttest",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "PicoDataAttest",
     "public": true,
     "galleryFlags": [
@@ -23,7 +23,7 @@
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/DataAttest.png"        
+        "default": "images/extension-icon.png"        
     },
     "files": [
         {
