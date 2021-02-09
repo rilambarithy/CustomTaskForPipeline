@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "build-release-task",
-    "name": "DataAttest Data Integrity Tool",
-    "version": "0.0.6",
+    "name": "DataAttest",
+    "version": "0.0.7",
     "publisher": "PicoDataAttest",
     "public": true,
     "galleryFlags": [
