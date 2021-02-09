@@ -1,1 +1,1 @@
-CI/CD pipeline extension to Kick start DataAttest to validate/automate - building blocks, transformation logic and process flow 
+CI/CD pipeline extension kick starts DataAttest application to validate/automate - building blocks, transformation logic and process flow 
