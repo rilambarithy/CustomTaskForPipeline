@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "build-release-task",
-    "name": "DataAttest Build and Release Tool",
-    "version": "0.0.4",
+    "name": "DataAttest Data Integrity Tool",
+    "version": "0.0.6",
     "publisher": "PicoDataAttest",
     "public": true,
     "galleryFlags": [
@@ -18,12 +18,12 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Tools for building/releasing with PicoDataAttest. Includes one build/release task.",
+    "description": "Extension for initiating DataAttest from CI/CD pipline. Includes one build/release task.",
     "categories": [
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/logo.png"        
+        "default": "images/DataAttest.png"        
     },
     "files": [
         {

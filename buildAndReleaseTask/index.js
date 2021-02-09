@@ -39,7 +39,7 @@ function run() {
         try{
             const urlString = tl.getInput('instanceId', true);
             console.log('calling rest service')
-              fetch(urlString+'/api/books/')
+              fetch(urlString)
                .then(res => res.json())
                   .then(json => console.log(json));
             }
